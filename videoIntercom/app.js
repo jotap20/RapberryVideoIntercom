@@ -3,7 +3,10 @@ var path = require('path');
 var logger = require('morgan');
 //var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
+<<<<<<< HEAD
 //var io =require('socket.io')(http);
+=======
+>>>>>>> 6f3a1db0abdf952878285b7e637bcf798ef5c5f1
 
 var app = express();
 
