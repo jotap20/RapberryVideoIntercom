@@ -1,6 +1,6 @@
 var express = require('express');
 var router = express.Router();
-var io =require('socket.io')(http);
+//var io =require('socket.io')(http);
 
 /* GET users listing. */
 
