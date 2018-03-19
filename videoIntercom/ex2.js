@@ -3,7 +3,10 @@ child = spawn('/opt/vc/bin/raspivid', ['-t', '0', '-w', '300', '-h', '300', '-hf
 
 var http = require("http");
 var server = http.createServer(function(request, response) {
+
+console.log("received request");
 child.stdout.pipe(response);
+
 });
 
 
