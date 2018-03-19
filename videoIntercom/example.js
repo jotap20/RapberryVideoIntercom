@@ -64,7 +64,7 @@ function startStreaming(io) {
  
   console.log('Watching for changes...');
  
-  //app.set('watchingFile', true);
+  /*app.set('watchingFile', true);*/
   io.sockets.pipe(proc.stdout);
  /* fs.watchFile('./stream/image_stream.jpg', function(current, previous) {
    
